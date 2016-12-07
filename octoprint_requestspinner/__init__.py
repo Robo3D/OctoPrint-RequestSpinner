@@ -22,12 +22,12 @@ class RequestSpinnerPlugin(octoprint.plugin.AssetPlugin, octoprint.plugin.Templa
 
 				# version check: github repository
 				type="github_release",
-				user="OctoPrint",
+				user="Robo3D",
 				repo="OctoPrint-RequestSpinner",
 				current=self._plugin_version,
 
 				# update method: pip
-				pip="https://github.com/OctoPrint/OctoPrint-RequestSpinner/archive/{target_version}.zip"
+				pip="https://github.com/Robo3D/OctoPrint-RequestSpinner/archive/{target_version}.zip"
 			)
 		)
 
